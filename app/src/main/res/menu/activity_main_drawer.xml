@@ -1,36 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <group android:checkableBehavior="single">
+    <group  android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/all"
+            android:icon="@drawable/ic_forum_24dp"
+            android:title="All" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/assignments"
+            android:icon="@drawable/ic_assignments_24dp"
+            android:title="Assignments" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/thread"
+            android:icon="@drawable/ic_broadcast_24dp"
+            android:title="Broadcasts" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/cats"
+            android:icon="@drawable/ic_mode_edit_24dp"
+            android:title="CATS" />
     </group>
-
-    <item android:title="Communicate">
+    <item android:id="@+id/social"
+        android:title="Social">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/events"
+                android:icon="@drawable/ic_event_24dp"
+                android:title="Events" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/gallery"
+                android:icon="@drawable/ic_photo_camera_24dp"
+                android:title="Gallery" />
+            <item
+                android:id="@+id/groups"
+                android:icon="@drawable/ic_people_outline_24dp"
+                android:title="Groups"/>
         </menu>
     </item>
-
+    <item android:title="Miscellaneous"
+        android:id="@+id/miscellaneous">
+        <menu>
+            <item android:title="Timetable"
+                android:id="@+id/timetable"
+                android:icon="@drawable/ic_timetable_24dp"/>
+            <item android:title="More"
+                android:id="@+id/more"
+                android:icon="@drawable/ic_settings_24dp"/>
+        </menu>
+    </item>
 </menu>
